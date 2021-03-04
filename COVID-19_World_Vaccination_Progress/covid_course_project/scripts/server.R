@@ -15,7 +15,7 @@ library(rworldxtra)
 # load data ---------------------------------------------------------------
 
 
-df_covid <- read.csv("Documents/GitHub/developing_data_products_course_project/COVID-19_World_Vaccination_Progress/covid_course_project/data/owid-covid-data.csv") %>% as_tibble()
+df_covid <- read.csv("COVID-19_World_Vaccination_Progress/covid_course_project/data/owid-covid-data.csv") %>% as_tibble()
 
 
 # format data -------------------------------------------------------------
